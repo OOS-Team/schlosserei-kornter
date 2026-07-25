@@ -1,2 +1,2 @@
-/* placeholder - will replace */
-body{font-family:system-ui;margin:0}
+/* Schlosserei Kornter – full styles loaded from deploy; temporary bootstrap */
+@import url('styles-full.css');
