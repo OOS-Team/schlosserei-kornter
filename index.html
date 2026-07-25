@@ -1,35 +1,587 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Schlosserei Kornter Heilbronn | Meisterbetrieb seit 1954</title>
-<meta name="description" content="Schlosserei Kornter in Heilbronn: Treppen, Geländer, Stahlbau, Tore & Einbruchschutz. Meisterbetrieb seit 1954." />
-<meta name="theme-color" content="#2f4f7a" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Schlosserei Kornter Heilbronn | Meisterbetrieb seit 1954</title>
+  <meta name="description" content="Schlosserei Kornter in Heilbronn: Treppen, Geländer, Stahlbau, Tore & Einbruchschutz. Meisterbetrieb seit 1954 – mit 5,0 Sternen auf Google bewertet." />
+  <meta name="theme-color" content="#2f4f7a" />
+  <link rel="icon" type="image/png" href="assets/logo.svg" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/logo.svg" sizes="64x64" />
+  <link rel="apple-touch-icon" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Kornter Schlosserei GmbH",
+    "image": "https://www.kornter.de/",
+    "url": "https://www.kornter.de/",
+    "telephone": "+49713191230",
+    "email": "info@kornter.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "August-Mogler-Straße 32",
+      "addressLocality": "Heilbronn",
+      "postalCode": "74080",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.1395,
+      "longitude": 9.1845
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "07:30",
+        "closes": "12:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "13:00",
+        "closes": "16:30"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "1"
+    },
+    "foundingDate": "1954",
+    "description": "Meisterbetrieb für Stahlbau, Treppen, Geländer, Tore und individuelle Metallarbeiten in Heilbronn."
+  }
+  </script>
 </head>
 <body>
-<p style="font-family:system-ui,sans-serif;padding:2rem;color:#333">Seite wird geladen …</p>
-<script src="js/p0.js"></script>
-<script src="js/p1.js"></script>
-<script src="js/p2.js"></script>
-<script src="js/p3.js"></script>
-<script src="js/p4.js"></script>
-<script>
-(function () {
-  try {
-    var b64 = window.__K0+window.__K1+window.__K2+window.__K3+window.__K4;
-    var bin = atob(b64);
-    var bytes = new Uint8Array(bin.length);
-    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-    var html = new TextDecoder('utf-8').decode(bytes);
-    document.open();
-    document.write(html);
-    document.close();
-  } catch (e) {
-    document.body.innerHTML = '<p style="font-family:system-ui;padding:2rem">Laden fehlgeschlagen. Bitte neu laden.</p>';
-    console.error(e);
-  }
-})();
-</script>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Schlosserei Kornter – Startseite">
+        <img
+          class="logo-img"
+          src="assets/logo.svg"
+          width="160"
+          height="160"
+          alt="schlosserei kornter – …macht mehr aus Metall!"
+        />
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#referenzen">Referenzen</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#bewertungen">Bewertungen</a>
+        <a href="#kontakt" class="nav-cta">Kontakt</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="rating-quiet" href="https://www.google.com/maps/search/?api=1&query=Kornter+Schlosserei+GmbH+August-Mogler-Stra%C3%9Fe+32+74080+Heilbronn" target="_blank" rel="noopener noreferrer" title="Google-Bewertung">
+          <span aria-hidden="true">★★★★★</span> 5,0
+        </a>
+        <a class="btn btn-phone" href="tel:+49713191230">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" fill="currentColor"/></svg>
+          Anrufen
+        </a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menü öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container hero-grid-layout">
+        <div class="hero-content">
+          <p class="hero-kicker">Meisterbetrieb · Heilbronn seit 1954</p>
+
+          <h1>
+            Schlosserei Kornter
+            <span class="hero-claim">… macht mehr aus Metall</span>
+          </h1>
+
+          <p class="hero-lead">
+            Planung, Fertigung und Montage aus einer Hand – für Industrie, Kommunen und private Auftraggeber.
+            Stahl, Edelstahl, Aluminium und Glas in meisterlicher Qualität.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#kontakt">Unverbindlich anfragen</a>
+            <a class="btn btn-secondary" href="#referenzen">Projekte ansehen</a>
+          </div>
+
+          <p class="hero-meta">
+            <a class="rating-quiet rating-quiet--dark" href="https://www.google.com/maps/search/?api=1&query=Kornter+Schlosserei+GmbH+Heilbronn" target="_blank" rel="noopener noreferrer">
+              ★★★★★ 5,0 auf Google
+            </a>
+            <span class="meta-sep" aria-hidden="true">·</span>
+            <span>70+ Jahre Erfahrung</span>
+            <span class="meta-sep" aria-hidden="true">·</span>
+            <span>Aus einer Hand</span>
+          </p>
+        </div>
+
+        <figure class="hero-project">
+          <div class="hero-project-frame">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K0H36cpaBIYaugybiUgD8TJZk0FiG5vlCvPCHUqM6Q"
+              width="750"
+              height="750"
+              alt="Metallskulptur im urbanen Raum – Projekt der Schlosserei Kornter"
+              fetchpriority="high"
+            />
+          </div>
+          <figcaption class="hero-project-caption">
+            <span class="hero-project-tag">Projekt</span>
+            <span class="hero-project-title">Kunst am Bau · Metallskulptur</span>
+            <a href="#referenzen">Mehr Referenzen →</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip" aria-label="Auf einen Blick">
+      <div class="container trust-inner">
+        <div class="trust-item">
+          <strong>Seit 1954</strong>
+          <span>Familiengeführt in Heilbronn</span>
+        </div>
+        <div class="trust-item">
+          <strong>Meisterbetrieb</strong>
+          <span>Werner Kornter, Schlossermeister</span>
+        </div>
+        <div class="trust-item">
+          <strong>Privat · Industrie · Kommune</strong>
+          <span>Individuelle Lösungen nach Maß</span>
+        </div>
+        <div class="trust-item">
+          <strong>Stahl · Edelstahl · Alu · Glas</strong>
+          <span>Planung, Fertigung, Montage</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEISTUNGEN -->
+    <section class="section" id="leistungen">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Leistungen</p>
+          <h2>Was wir aus Metall machen</h2>
+          <p class="section-lead">
+            Unser Leistungsspektrum umfasst Stahl, Edelstahl, Aluminium und Glas –
+            von der filigranen Konstruktion bis zum imposanten Stahlbau.
+          </p>
+        </header>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><path d="M8 28L20 8l12 20H8z" stroke="currentColor" stroke-width="1.6"/><path d="M14 28v4h12v-4" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Treppen &amp; Geländer</h3>
+            <p>Außen- und Innentreppen, Treppen- und Balkongeländer – sicher, langlebig und präzise gefertigt.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="12" width="24" height="16" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M8 18h24M16 12v16" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Balkone &amp; Überdachungen</h3>
+            <p>Stabile Balkonkonstruktionen und Wetterschutz – abgestimmt auf Architektur und Nutzung.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><rect x="10" y="8" width="20" height="24" rx="1" stroke="currentColor" stroke-width="1.6"/><circle cx="24" cy="20" r="1.5" fill="currentColor"/></svg>
+            </div>
+            <h3>Tore, Türen &amp; Gitter</h3>
+            <p>Haustüren, Tore und Fenstergitter – funktional, einbruchhemmend und optisch stimmig.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><path d="M8 28V12h8l4 6 4-6h8v16H8z" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Einbruchschutz</h3>
+            <p>Individuelle Schutzlösungen für Fenster, Türen und Zugänge – Sicherheit mit Handwerksqualität.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><path d="M6 30V10h10v8h8V10h10v20H6z" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Stahlbau &amp; Konstruktionen</h3>
+            <p>Stahlbauten und Konstruktionen für Industrie und Gewerbe – verzinkt, lackiert oder in Edelstahl.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="10" stroke="currentColor" stroke-width="1.6"/><path d="M20 10v20M10 20h20" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <h3>Edelstahl, Alu &amp; Glas</h3>
+            <p>Materialvielfalt für Innenausbau und Außenbereich – inklusive anspruchsvoller Sonderanfertigungen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENZEN / ARBEITEN -->
+    <section class="section section-alt" id="referenzen">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Referenzen</p>
+          <h2>Projekte, die bleiben</h2>
+          <p class="section-lead">
+            Ob künstlerische Skulptur oder große Stahlkonstruktion – das Kornter-Team setzt Vorstellungen von Kunden und Architekten in bester handwerklicher Qualität um.
+          </p>
+        </header>
+
+        <!-- Featured project -->
+        <article class="project-feature">
+          <div class="project-feature-media">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K0H36cpaBIYaugybiUgD8TJZk0FiG5vlCvPCHUqM6Q"
+              width="750"
+              height="750"
+              alt="Metallskulptur zwischen modernen Gebäuden – Projekt der Schlosserei Kornter"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-feature-body">
+            <p class="eyebrow">Ausgewähltes Projekt</p>
+            <h3>Metallskulptur · Kunst am Bau</h3>
+            <p>
+              Eine filigrane Stahlkonstruktion im urbanen Raum – präzise gefertigt und montiert.
+              Genau in diesem Spannungsfeld arbeitet die Schlosserei Kornter:
+              von der künstlerischen Form bis zur tragenden Konstruktion.
+            </p>
+            <ul class="project-meta-list">
+              <li><strong>Bereich</strong> Kunst am Bau / Skulptur</li>
+              <li><strong>Material</strong> Stahl</li>
+              <li><strong>Leistung</strong> Fertigung &amp; Montage</li>
+            </ul>
+            <a class="btn btn-primary" href="#kontakt">Ähnliches Projekt anfragen</a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card-media">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHTLS0TB38zIywTd-owUMrfF7vcUSqEyPZ4r_xRUUq0w"
+                width="400"
+                height="580"
+                alt="Private Innentreppe mit Stahlwange und Seilgeländer – Schlosserei Kornter"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <p class="project-card-tag">Privat</p>
+              <h3>Treppe mit Seilgeländer</h3>
+              <p>Individuelle Innentreppe – Stahl, Holzstufen und Edelstahlseile, passgenau im Wohnraum.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-media">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-kTXWNjvsCBHSwv_nNVlG6JBtR76a01fELCEssIT5g"
+                width="600"
+                height="330"
+                alt="Metall-Kunstwerk in der Heilbronner Innenstadt bei Nacht – Schlosserei Kornter"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <p class="project-card-tag">Heilbronn</p>
+              <h3>Kunstwerk Innenstadt</h3>
+              <p>Filigrane Metallfiguren im öffentlichen Raum – Kunst am Bau mit handwerklicher Präzision.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-media">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZD21noYX51Eg9tkF0lWOamqAJ1l-E_c7JRRnZrQXGBQ"
+                width="600"
+                height="600"
+                alt="Montage roter Stahlkonstruktionen auf der BUGA Heilbronn – Schlosserei Kornter"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <p class="project-card-tag">Öffentlich</p>
+              <h3>BUGA Heilbronn</h3>
+              <p>Stahlkonstruktionen und Montage vor Ort – für die Bundesgartenschau in Heilbronn.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-media">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP_Sd3YY4LBTOza-xkgohmRmUuhlAXVtujSuxb_NLUfg"
+                width="600"
+                height="600"
+                alt="Team der Schlosserei Kornter beim Sport-Event Fußball"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <p class="project-card-tag">Team</p>
+              <h3>Sport-Event Fußball</h3>
+              <p>Gemeinschaft und Teamgeist – unser Betrieb über die Werkstatt hinaus.</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="work-note">
+          Weitere Referenzen senden wir Ihnen gerne auf Anfrage – rufen Sie uns an oder schreiben Sie uns.
+        </p>
+      </div>
+    </section>
+
+    <!-- ÜBER UNS -->
+    <section class="section" id="ueber-uns">
+      <div class="container about-layout">
+        <div class="about-copy">
+          <p class="eyebrow">Über uns</p>
+          <h2>Tradition, die hält – Handwerk, das überzeugt</h2>
+          <p>
+            Die Schlosserei wurde 1954 in Heilbronn von Werner Kornter Senior gegründet.
+            Seit 1993 führt Schlossermeister Werner Kornter jun. den Betrieb –
+            mit dem gleichen Anspruch: Qualität, die man sieht und spürt.
+          </p>
+          <p>
+            Wir sind der richtige Partner für Industrie, Kommunen und private Auftraggeber.
+            Von Teilen für den Innenausbau bis zu Stahlkonstruktionen mit Glas –
+            wir planen, fertigen und montieren.
+          </p>
+
+          <ul class="check-list">
+            <li>Individuelle Beratung und Planung</li>
+            <li>Fertigung in der eigenen Werkstatt in Heilbronn-Böckingen</li>
+            <li>Montage durch erfahrene Fachkräfte</li>
+            <li>Materialien: Stahl, Edelstahl, Aluminium, Messing, Glas</li>
+          </ul>
+        </div>
+
+        <div class="timeline" aria-label="Firmengeschichte">
+          <article class="timeline-item">
+            <time>1954</time>
+            <p>Gründung durch Werner Kornter Senior in der Bergstraße, Heilbronn.</p>
+          </article>
+          <article class="timeline-item">
+            <time>1969</time>
+            <p>Neubau und Umzug in die August-Mogler-Straße 32 im Gewerbegebiet Gesundbrunnen.</p>
+          </article>
+          <article class="timeline-item">
+            <time>1979</time>
+            <p>Erweiterung um eine zusätzliche Halle.</p>
+          </article>
+          <article class="timeline-item">
+            <time>1993</time>
+            <p>Übernahme der Geschäftsleitung durch Schlossermeister Werner Kornter jun.</p>
+          </article>
+          <article class="timeline-item">
+            <time>2013–2017</time>
+            <p>Umbau zum Bürogebäude und Erweiterung der Werkstatt – fit für die Zukunft.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEWERTUNGEN -->
+    <section class="section section-reviews" id="bewertungen">
+      <div class="container reviews-simple">
+        <div class="reviews-simple-copy">
+          <p class="eyebrow">Bewertung</p>
+          <h2>Vertrauen durch Ergebnisse</h2>
+          <p class="section-lead">
+            Zuverlässige Beratung, saubere Ausführung und termintreue Montage –
+            so arbeiten wir für Privatkunden, Architekten und gewerbliche Auftraggeber in Heilbronn und Umgebung.
+          </p>
+        </div>
+        <div class="reviews-simple-rating">
+          <p class="reviews-score-line">
+            <span class="reviews-score">5,0</span>
+            <span class="reviews-stars" aria-hidden="true">★★★★★</span>
+          </p>
+          <p class="reviews-label">Durchschnitt auf Google</p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Kornter+Schlosserei+GmbH+August-Mogler-Stra%C3%9Fe+32+74080+Heilbronn" target="_blank" rel="noopener noreferrer">
+            Auf Google ansehen →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM / KONTAKT -->
+    <section class="section section-alt" id="kontakt">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Sprechen Sie mit uns</h2>
+          <p class="section-lead">
+            Ob Skizze, Baustellenfoto oder erste Idee – wir beraten Sie gerne und erstellen ein unverbindliches Angebot.
+          </p>
+        </header>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="person-cards">
+              <article class="person-card">
+                <div class="person-avatar" aria-hidden="true">SS</div>
+                <div>
+                  <h3>Sabine Schwarz</h3>
+                  <p class="role">Büro</p>
+                  <p><a href="tel:+49713191230">07131&nbsp;/&nbsp;91&nbsp;23-0</a></p>
+                  <p><a href="mailto:info@kornter.de">info@kornter.de</a></p>
+                </div>
+              </article>
+              <article class="person-card">
+                <div class="person-avatar" aria-hidden="true">WK</div>
+                <div>
+                  <h3>Werner Kornter</h3>
+                  <p class="role">Geschäftsführer · Schlossermeister</p>
+                  <p><a href="tel:+497131912311">07131&nbsp;/&nbsp;91&nbsp;23-11</a></p>
+                  <p><a href="tel:+491726307021">Mobil 0172&nbsp;6307021</a></p>
+                  <p><a href="mailto:werner@kornter.de">werner@kornter.de</a></p>
+                </div>
+              </article>
+            </div>
+
+            <div class="address-card">
+              <h3>Kornter Schlosserei GmbH</h3>
+              <p>
+                August-Mogler-Straße 32<br />
+                74080 Heilbronn
+              </p>
+              <p>
+                <strong>Bürozeiten</strong><br />
+                Montag bis Freitag<br />
+                07:30–12:00 &amp; 13:00–16:30
+              </p>
+              <a class="text-link" href="https://www.google.com/maps/dir/?api=1&destination=August-Mogler-Stra%C3%9Fe+32,+74080+Heilbronn" target="_blank" rel="noopener noreferrer">
+                Route in Google Maps öffnen →
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" autocomplete="name" required placeholder="Ihr Name" />
+            </div>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="email">E-Mail *</label>
+                <input id="email" name="email" type="email" autocomplete="email" required placeholder="name@beispiel.de" />
+              </div>
+              <div class="form-row">
+                <label for="phone">Telefon</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Optional" />
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="topic">Anliegen</label>
+              <select id="topic" name="topic">
+                <option value="allgemein">Allgemeine Anfrage</option>
+                <option value="treppe">Treppen &amp; Geländer</option>
+                <option value="balkon">Balkone &amp; Überdachungen</option>
+                <option value="tor">Tore, Türen &amp; Einbruchschutz</option>
+                <option value="stahlbau">Stahlbau / Gewerbe</option>
+                <option value="sonstiges">Sonstiges</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Nachricht *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Beschreiben Sie kurz Ihr Projekt …"></textarea>
+            </div>
+            <div class="form-row form-check">
+              <input id="privacy" name="privacy" type="checkbox" required />
+              <label for="privacy">
+                Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und willige in die Verarbeitung meiner Daten zur Bearbeitung der Anfrage ein. *
+              </label>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Anfrage absenden</button>
+            <p class="form-hint" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-fallback muted">
+              Alternativ: <a href="mailto:info@kornter.de">info@kornter.de</a> oder
+              <a href="tel:+49713191230">07131 / 91 23-0</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP TEASER -->
+    <section class="map-band" aria-label="Standort">
+      <div class="container map-band-inner">
+        <div>
+          <h2>Direkt im Gewerbegebiet Gesundbrunnen</h2>
+          <p>August-Mogler-Straße 32 · 74080 Heilbronn-Böckingen</p>
+        </div>
+        <a class="btn btn-secondary btn-on-dark" href="https://www.google.com/maps/search/?api=1&query=Kornter+Schlosserei+GmbH+August-Mogler-Stra%C3%9Fe+32+74080+Heilbronn" target="_blank" rel="noopener noreferrer">
+          Route &amp; Karte öffnen
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-logo" href="#top" aria-label="Schlosserei Kornter">
+          <img src="assets/logo.svg" width="120" height="120" alt="schlosserei kornter – …macht mehr aus Metall!" />
+        </a>
+        <p class="footer-brand">Kornter Schlosserei GmbH</p>
+        <p class="muted">Meisterbetrieb in Heilbronn seit 1954.<br />Macht mehr aus Metall.</p>
+        <p class="footer-rating">
+          <a class="rating-quiet rating-quiet--footer" href="https://www.google.com/maps/search/?api=1&query=Kornter+Schlosserei+GmbH+Heilbronn" target="_blank" rel="noopener noreferrer">
+            ★★★★★ 5,0 auf Google
+          </a>
+        </p>
+      </div>
+      <div>
+        <p class="footer-title">Navigation</p>
+        <ul class="footer-links">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title">Kontakt</p>
+        <ul class="footer-links">
+          <li><a href="tel:+49713191230">07131 / 91 23-0</a></li>
+          <li><a href="mailto:info@kornter.de">info@kornter.de</a></li>
+          <li>August-Mogler-Straße 32</li>
+          <li>74080 Heilbronn</li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title">Rechtliches</p>
+        <ul class="footer-links">
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Kornter Schlosserei GmbH. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
